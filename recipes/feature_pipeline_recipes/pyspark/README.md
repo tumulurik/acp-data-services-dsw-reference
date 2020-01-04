@@ -30,10 +30,14 @@ sh ./build.sh
 ```
 Enter your admin password when prompted for
 This generates an egg and is saved in the dist directory of the project 
-Use this egg and exercise the calls in the postman collection.
-For the details on the postman calls:
+Use this egg and exercise the calls in the postman collection below:
+https://www.getpostman.com/collections/86934cae537aae60d052 
+
+
+For the details on executing the postman calls:
 1. Create an engine with a call to POST Feature Pipeline Engine EGG:
     i) Supply the pipeline.json as form-data to the engine key
+    
    ii) The egg file generated above is the value for the keys 'featurePipelineOverrideArtifact' and 'defaultArtifact'
 
 2. Post Instance
