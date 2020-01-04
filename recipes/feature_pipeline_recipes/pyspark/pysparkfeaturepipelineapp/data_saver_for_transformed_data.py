@@ -49,7 +49,7 @@ class DatasetSaverForTransformedData(DataSaver):
         output_df = self.nest_cols(output_df, tenant_id)
         self.logger.debug("Transformed dataset count is %s " % output_df.count())
 
-        write_dataset(config_properties, spark_context, output_df, "outputDataSetId")
+        write_dataset(config_properties, spark_context, output_df, "transformedDataSetId")
 
 
 
